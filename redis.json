@@ -1,1 +1,7 @@
-{"service": {"name": "cache", "tags": ["redis"], "port": 6379}}
+{
+    "service": {
+        "name": "cache",
+        "tags": ["redis"],
+        "port": 6379
+    }
+}

@@ -1,1 +1,14 @@
-{"service": {"name": "web", "tags": ["nginx"], "port": 80, "check": {"id": "web", "name": "Check nginx response", "http": "http://nginx", "method": "GET", "interval": "10s"}}}
+{
+    "service": {
+        "name": "web",
+        "tags": ["nginx"],
+        "port": 80,
+        "check": {
+            "id": "web",
+            "name": "Check nginx response",
+            "http": "http://nginx",
+            "method": "GET",
+            "interval": "10s"
+        }
+    }
+}
