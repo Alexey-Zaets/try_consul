@@ -1,0 +1,14 @@
+{
+    "service": {
+        "name": "db",
+        "tags": ["postgres"],
+        "port": 5432,
+        "check": {
+            "id": "db",
+            "name": "Check database connection",
+            "tcp": "db:5432",
+            "interval": "10s",
+            "timeout": "1s"
+        }
+    }
+}
