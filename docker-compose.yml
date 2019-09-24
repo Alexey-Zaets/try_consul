@@ -62,9 +62,9 @@ services:
         command: "consul agent -node=client -join=consul-server -enable-script-checks \
                  -data-dir /consul/data -config-dir /consul/config"
         volumes:
-            - ./redis.json:/consul/config/redis.json
-            - ./web.json:/consul/config/web.json
-            - ./app.json:/consul/config/app.json
-            - ./db.json:/consul/config/db.json
+            - ./services/redis.json:/consul/config/redis.json
+            - ./services/web.json:/consul/config/web.json
+            - ./services/app.json:/consul/config/app.json
+            - ./services/db.json:/consul/config/db.json
         depends_on:
             - consul-server
