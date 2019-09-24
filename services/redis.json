@@ -5,7 +5,7 @@
         "port": 6379,
         "check": {
             "id": "redis",
-            "name": "Check redis connectiom",
+            "name": "Check redis connection",
             "tcp": "redis:6379",
             "interval": "10s",
             "timeout": "1s"
