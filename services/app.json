@@ -1,4 +1,3 @@
-// application service configuration
 {
     "service": {
         "name": "app",

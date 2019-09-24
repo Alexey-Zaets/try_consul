@@ -1,5 +1,9 @@
-// configuration for consul server node
 {
     "datacenter": "test",
-    "data_dir": "/consul/data"
+    "data_dir": "/consul/data",
+    "acl": {
+        "enabled": true,
+        "default_policy": "deny",
+        "enable_token_persistence": true
+    }
 }

@@ -1,4 +1,3 @@
-// cache service configuration
 {
     "service": {
         "name": "cache",

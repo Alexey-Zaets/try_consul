@@ -1,4 +1,3 @@
-// balancer service configuration
 {
     "service": {
         "name": "balancer",
