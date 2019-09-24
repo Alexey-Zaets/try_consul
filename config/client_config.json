@@ -1,0 +1,5 @@
+// configuration for consul client node
+{
+    "datacenter": "test",
+    "data_dir": "/consul/data"
+}
