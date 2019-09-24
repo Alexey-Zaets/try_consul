@@ -2,6 +2,13 @@
     "service": {
         "name": "cache",
         "tags": ["redis"],
-        "port": 6379
+        "port": 6379,
+        "check": {
+            "id": "redis",
+            "name": "Check redis connectiom",
+            "tcp": "redis:6379",
+            "interval": "10s",
+            "timeout": "1s"
+        }
     }
 }

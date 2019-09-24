@@ -6,7 +6,7 @@
         "check": {
             "id": "app",
             "name": "Check application response",
-            "http": "http://app/consul",
+            "http": "http://nginx/consul",
             "method": "GET",
             "interval": "10s"
         }
